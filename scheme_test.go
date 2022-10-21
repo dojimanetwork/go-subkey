@@ -6,11 +6,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/dojimanetwork/go-subkey"
+	"github.com/dojimanetwork/go-subkey/ecdsa"
+	"github.com/dojimanetwork/go-subkey/ed25519"
+	"github.com/dojimanetwork/go-subkey/sr25519"
 	"github.com/stretchr/testify/assert"
-	"github.com/vedhavyas/go-subkey"
-	"github.com/vedhavyas/go-subkey/ecdsa"
-	"github.com/vedhavyas/go-subkey/ed25519"
-	"github.com/vedhavyas/go-subkey/sr25519"
 )
 
 //nolint:funlen
