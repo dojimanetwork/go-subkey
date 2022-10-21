@@ -3,9 +3,9 @@ package sr25519
 import (
 	"errors"
 
-	sr25519 "github.com/ChainSafe/go-schnorrkel"
+	sr25519 "github.com/dojimanetwork/go-schnorrkel"
+	"github.com/dojimanetwork/go-subkey"
 	"github.com/gtank/merlin"
-	"github.com/vedhavyas/go-subkey"
 )
 
 const (

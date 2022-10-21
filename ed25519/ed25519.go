@@ -5,10 +5,10 @@ import (
 	"crypto"
 	"crypto/rand"
 	"errors"
+	"github.com/dojimanetwork/go-schnorrkel"
 
-	"github.com/ChainSafe/go-schnorrkel"
-	"github.com/vedhavyas/go-subkey"
-	"github.com/vedhavyas/go-subkey/scale"
+	"github.com/dojimanetwork/go-subkey"
+	"github.com/dojimanetwork/go-subkey/scale"
 	"golang.org/x/crypto/blake2b"
 	"golang.org/x/crypto/ed25519"
 )

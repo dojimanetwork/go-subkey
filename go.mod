@@ -1,9 +1,9 @@
-module github.com/vedhavyas/go-subkey
+module github.com/dojimanetwork/go-subkey
 
 go 1.17
 
 require (
-	github.com/ChainSafe/go-schnorrkel v1.0.0
+	github.com/dojimanetwork/go-schnorrkel v1.0.1
 	github.com/btcsuite/btcd v0.22.0-beta // indirect
 	github.com/cosmos/go-bip39 v1.0.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
